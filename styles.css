@@ -3,3 +3,17 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --color-primary: #1a1a2e;    
+  --color-accent: #c66272;     
+  --color-bg: #172448;
+  --color-surface: #0f3460;
+  --color-text: #eaeaea;
+  --color-muted: #a0a0b0;
+  --font-heading: 'Georgia', serif;
+  --font-body: 'Segoe UI', sans-serif;
+  --radius: 8px;
+  --max-width: 1100px;
+}
+
