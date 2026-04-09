@@ -78,3 +78,23 @@ nav {
 }
 
 
+/* Dark overlay for better text contrast */
+#hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.hero-content {
+  position: relative;   /* content sits above the overlay */
+  z-index: 1;
+  padding: 2rem;
+}
+
+.hero-content h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 5vw, 4rem);  /* responsive font size */
+  margin-bottom: 1rem;
+}
+
