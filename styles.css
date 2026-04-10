@@ -71,6 +71,9 @@ nav {
   background-position: center;
   min-height: 85vh;
   width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -220,5 +223,13 @@ input, textarea {
 input:focus, textarea:focus {    
   outline: none;
   border-color: var(--color-accent);
+}
+
+footer {
+  background-color: var(--color-primary);
+  text-align: center;
+  padding: 2rem;
+  border-top: 2px solid var(--color-accent);
+  color: var(--color-muted);
 }
 
