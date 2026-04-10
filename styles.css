@@ -233,3 +233,20 @@ footer {
   color: var(--color-muted);
 }
 
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 0.75rem;
+}
+
+.social-links a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: opacity 0.3s;
+}
+
+.social-links a:hover {
+  opacity: 0.7;
+}
