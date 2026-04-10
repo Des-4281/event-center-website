@@ -311,6 +311,15 @@ footer {
   color: var(--color-accent);
   text-decoration: none;
   transition: opacity 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.social-links i {
+  font-size: 1.25rem;
 }
 
 .social-links a:hover {
@@ -563,6 +572,70 @@ nav {
   padding: 0.65rem 0;
 }
 
+.legal-hero {
+  background-color: var(--color-surface);
+  padding: 4rem 2rem;
+  text-align: center;
+  border-bottom: 2px solid var(--color-accent);
+}
+
+.legal-hero h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 0.5rem;
+}
+
+.legal-meta {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}
+
+.legal-body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.legal-block h2 {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  color: var(--color-accent);
+  margin-bottom: 0.75rem;
+}
+
+.legal-block p {
+  font-size: 1rem;
+  color: var(--color-muted);
+  line-height: 1.85;
+  margin-bottom: 0.75rem;
+}
+
+.legal-block ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.legal-block ul li {
+  font-size: 0.95rem;
+  color: var(--color-muted);
+  line-height: 1.7;
+}
+
+.legal-block a {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.legal-block a:hover {
+  opacity: 0.8;
+}
+
 @media (max-width: 600px) {
   nav {
     padding: 0.85rem 1rem;    
@@ -622,5 +695,13 @@ nav {
 
   .team-grid {
     grid-template-columns: 1fr;
+  }
+
+    .legal-body {
+    padding: 2.5rem 1rem;
+  }
+
+  .legal-hero {
+    padding: 3rem 1rem;
   }
 }
