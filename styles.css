@@ -65,6 +65,27 @@ nav {
   color: var(--color-accent);
 }
 
+.ham-btn {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.ham-btn span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: var(--color-text);
+  border-radius: 2px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+
 #hero {
   background-image: url('images/hero-hq.webp');
   background-size: cover;
@@ -100,6 +121,18 @@ nav {
   font-family: var(--font-heading);
   font-size: clamp(2rem, 5vw, 4rem);  /* responsive font size */
   margin-bottom: 1rem;
+}
+
+#about-hero {
+  background-color: var(--color-surface);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+#about-hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
 }
 
 .hero-content p {
