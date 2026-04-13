@@ -38,6 +38,7 @@ A multi-page event center website built with HTML, CSS, and JavaScript as part o
 
 ## Project Structure
 
+```
 event-center/
 ├── index.html
 ├── about.html
@@ -47,7 +48,8 @@ event-center/
 ├── styles.css
 ├── script.js
 └── images/
-├── hero-hq.webp
+    └── hero-hq.webp
+```
 └── interior.jpg
 
 ## Credits
