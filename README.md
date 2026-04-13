@@ -48,9 +48,9 @@ event-center/
 ├── styles.css
 ├── script.js
 └── images/
-    └── hero-hq.webp
-```
+└── hero-hq.webp
 └── interior.jpg
+```
 
 ## Credits
 
